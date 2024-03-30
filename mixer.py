@@ -1,15 +1,15 @@
 from ctypes import cast, POINTER
 from pycaw.pycaw import AudioUtilities, ISimpleAudioVolume
-import tkinter as tk
+# import tkinter as tk
 from tkinter import StringVar, ttk, DoubleVar
 from random import randint
 from customtkinter import *
 from tkinter import *
 import customtkinter
-from tkinter.ttk import *
+# from tkinter.ttk import *
 import time
 
-INTERVAL = 25  # 2 seconds
+INTERVAL = 85  # 2 seconds
 
 color = {
     'grey': '#202020'
